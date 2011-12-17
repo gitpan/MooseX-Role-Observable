@@ -1,8 +1,8 @@
 package MooseX::Observer;
 {
-  $MooseX::Observer::VERSION = '0.002';
+  $MooseX::Observer::VERSION = '0.003';
 }
-# ABSTRACT: Simple Moose-Roles to implement the Observer Pattern
+# ABSTRACT: Sorry wrong distname, this will be gone on tuesday. Search for MooseX::Observer instead.
 1;
 
 
@@ -11,11 +11,11 @@ __END__
 
 =head1 NAME
 
-MooseX::Observer - Simple Moose-Roles to implement the Observer Pattern
+MooseX::Observer - Sorry wrong distname, this will be gone on tuesday. Search for MooseX::Observer instead.
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 

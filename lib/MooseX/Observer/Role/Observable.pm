@@ -1,6 +1,6 @@
 package MooseX::Observer::Role::Observable;
 {
-  $MooseX::Observer::Role::Observable::VERSION = '0.002';
+  $MooseX::Observer::Role::Observable::VERSION = '0.003';
 }
 # ABSTRACT: Sorry wrong distname, this will be gone on tuesday. Search for MooseX::Observer instead.
 
@@ -82,7 +82,7 @@ MooseX::Observer::Role::Observable - Sorry wrong distname, this will be gone on 
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
