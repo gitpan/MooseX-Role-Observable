@@ -1,0 +1,26 @@
+---
+abstract: 'Simple Moose-Roles to implement the Observer Pattern'
+author:
+  - 'Thomas Müller <tmueller@cpan.org>'
+build_requires:
+  Moose: 0
+  Test::More: 0
+  TestParent: 0
+  strict: 0
+  warnings: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.112150'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: MooseX-Role-Observable
+requires:
+  List::MoreUtils: 0
+  Moose::Role: 0
+  Moose::Util::TypeConstraints: 0
+  MooseX::Role::Parameterized: 0
+  MouseX::NativeTraits: 0
+version: 0.001
