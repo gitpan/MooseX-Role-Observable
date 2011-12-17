@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Simple Moose-Roles to implement the Observer Pattern",
-  "AUTHOR" => "Thomas M\303\274ller <tmueller\@cpan.org>",
+  "AUTHOR" => "Thomas M\374ller <tmueller\@cpan.org>",
   "BUILD_REQUIRES" => {
     "Moose" => 0,
     "Test::More" => 0,
@@ -32,7 +32,7 @@ my %WriteMakefileArgs = (
     "MooseX::Role::Parameterized" => 0,
     "MouseX::NativeTraits" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

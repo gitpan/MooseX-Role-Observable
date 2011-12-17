@@ -1,6 +1,6 @@
 package MooseX::Observer;
 {
-  $MooseX::Observer::VERSION = '0.001';
+  $MooseX::Observer::VERSION = '0.002';
 }
 # ABSTRACT: Simple Moose-Roles to implement the Observer Pattern
 1;
@@ -15,7 +15,7 @@ MooseX::Observer - Simple Moose-Roles to implement the Observer Pattern
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -162,7 +162,7 @@ In the SYNOPSIS the MooseX::Observer::Role::Observable role is applied after the
 count attribute, because the methodlist given to the role refers to inc_counter,
 dec_counter and the count attribute itself.
 
-=head1 Inspiration
+=head1 INSPIRATION
 
 Moose testcase called "collection_with_roles.t" already implemented an observer
 role. In fact MooseX::Observer::Role::Observable is largely similar to the role
@@ -177,11 +177,11 @@ See perlmodinstall for information and options on installing Perl modules.
 
 =head1 AUTHOR
 
-Thomas MÃ¼ller <tmueller@cpan.org>
+Thomas Müller <tmueller@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Thomas MÃ¼ller.
+This software is copyright (c) 2011 by Thomas Müller.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

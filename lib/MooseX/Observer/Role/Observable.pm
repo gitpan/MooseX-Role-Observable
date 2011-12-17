@@ -1,8 +1,8 @@
 package MooseX::Observer::Role::Observable;
 {
-  $MooseX::Observer::Role::Observable::VERSION = '0.001';
+  $MooseX::Observer::Role::Observable::VERSION = '0.002';
 }
-# ABSTRACT: Adds methods an logic to a class, enabling instances changes to be observed
+# ABSTRACT: Sorry wrong distname, this will be gone on tuesday. Search for MooseX::Observer instead.
 
 use MooseX::Role::Parameterized;
 use Moose::Util::TypeConstraints;
@@ -78,11 +78,11 @@ __END__
 
 =head1 NAME
 
-MooseX::Observer::Role::Observable - Adds methods an logic to a class, enabling instances changes to be observed
+MooseX::Observer::Role::Observable - Sorry wrong distname, this will be gone on tuesday. Search for MooseX::Observer instead.
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -197,11 +197,11 @@ L<MooseX::Observer|MooseX::Observer>
 
 =head1 AUTHOR
 
-Thomas MÃ¼ller <tmueller@cpan.org>
+Thomas Müller <tmueller@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Thomas MÃ¼ller.
+This software is copyright (c) 2011 by Thomas Müller.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

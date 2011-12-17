@@ -1,6 +1,6 @@
 package MooseX::Observer::Role::Observer;
 {
-  $MooseX::Observer::Role::Observer::VERSION = '0.001';
+  $MooseX::Observer::Role::Observer::VERSION = '0.002';
 }
 # ABSTRACT: Tags a Class as being an Observer
 use Moose::Role;
@@ -17,7 +17,7 @@ MooseX::Observer::Role::Observer - Tags a Class as being an Observer
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -122,11 +122,11 @@ L<MooseX::Observer|MooseX::Observer>
 
 =head1 AUTHOR
 
-Thomas MÃ¼ller <tmueller@cpan.org>
+Thomas Müller <tmueller@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Thomas MÃ¼ller.
+This software is copyright (c) 2011 by Thomas Müller.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

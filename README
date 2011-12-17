@@ -2,7 +2,7 @@ NAME
     MooseX::Observer - Simple Moose-Roles to implement the Observer Pattern
 
 VERSION
-    version 0.001
+    version 0.002
 
 SYNOPSIS
         ############################################################################
@@ -147,7 +147,7 @@ CAVEATS
     after the count attribute, because the methodlist given to the role
     refers to inc_counter, dec_counter and the count attribute itself.
 
-Inspiration
+INSPIRATION
     Moose testcase called "collection_with_roles.t" already implemented an
     observer role. In fact MooseX::Observer::Role::Observable is largely
     similar to the role used in the testcase. I just added passing
@@ -159,10 +159,10 @@ INSTALLATION
     modules.
 
 AUTHOR
-    Thomas MÃ¼ller <tmueller@cpan.org>
+    Thomas Müller <tmueller@cpan.org>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2011 by Thomas MÃ¼ller.
+    This software is copyright (c) 2011 by Thomas Müller.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
